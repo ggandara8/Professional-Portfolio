@@ -1,31 +1,61 @@
 body {
-   
+    background-color: seashell;
 }
 
-#name {
+.navbar {
+    background-color: transparent !important;
     font-family: 'Zilla Slab', serif;
+}
+
+.navbar .navbar-brand {
+    color: black;
     font-size: 30px;
 }
 
-#TextStyle {
-    font-family: 'Zilla Slab', serif;
+.navbar-nav {
+    font-size: 20px;
+}
+
+.navbar-nav .nav-item a:hover {
+    background-color: transparent !important;
     font-size: 25px;
 }
 
 .jumbotron {
-    background-color: palegoldenrod;
+    background-image: url(./wenhao-ryan-8ZRBpgC2Ayc-unsplash.jpg); /*Photo by Wenhao Ryan on Unsplash */
+    background-size: cover;
     font-family: 'Zilla Slab', serif;
 }
 
-.lead {
-    text-align: center;
-}
-
 .my-4 {
-    border-color: black;
+    border-color: white;
 }
 
 p {
     font-family: 'Zilla Slab', serif;
-    font-size: 20px; 
+    font-size: 20px;
 }
+
+.container {
+   border-style: solid;
+   border-color: white;
+   padding-left: 0px;
+   padding-right: 0px;
+   padding-top: 0px;
+   background-image: url(./wenhao-ryan-8ZRBpgC2Ayc-unsplash.jpg); /*Photo by Wenhao Ryan on Unsplash */
+   background-size: cover;
+   color: whitesmoke;
+}
+
+.card p {
+    font-size: 12px;
+}
+
+.card .card-header {
+    background-color: #D8EFF8;
+}
+
+.card .card-footer {
+    background-color: #D8EFF8;
+}
+
