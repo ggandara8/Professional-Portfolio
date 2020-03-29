@@ -1,0 +1,31 @@
+body {
+   
+}
+
+#name {
+    font-family: 'Zilla Slab', serif;
+    font-size: 30px;
+}
+
+#TextStyle {
+    font-family: 'Zilla Slab', serif;
+    font-size: 25px;
+}
+
+.jumbotron {
+    background-color: palegoldenrod;
+    font-family: 'Zilla Slab', serif;
+}
+
+.lead {
+    text-align: center;
+}
+
+.my-4 {
+    border-color: black;
+}
+
+p {
+    font-family: 'Zilla Slab', serif;
+    font-size: 20px; 
+}
