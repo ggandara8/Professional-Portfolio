@@ -7,6 +7,10 @@ body {
     font-family: 'Zilla Slab', serif;
 }
 
+.navbar-nav .nav-item a {
+    font-size: 20px;
+}
+
 .navbar .navbar-brand {
     color: black;
     font-size: 30px;
@@ -25,26 +29,18 @@ body {
     background-image: url(./daniel-reyes---CLmo9GA60-unsplash.jpg); /*Photo La Parguera, Puerto Rico by Daniel Reyes on Unsplash */
     background-size: cover;
     font-family: 'Zilla Slab', serif;
+    color: black;
+    border-style: solid;
+    border-color: white;
 }
 
 .my-4 {
-    border-color: white;
+    border-color: black;
 }
 
 p {
     font-family: 'Zilla Slab', serif;
     font-size: 20px;
-}
-
-.container {
-   border-style: solid;
-   border-color: white;
-   padding-left: 0px;
-   padding-right: 0px;
-   padding-top: 0px;
-   background-image: url(./daniel-reyes---CLmo9GA60-unsplash.jpg); /*Photo La Parguera, Puerto Rico by Daniel Reyes on Unsplash */
-   background-size: cover;
-   color: black;
 }
 
 .card p {
