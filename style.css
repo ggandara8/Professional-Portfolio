@@ -26,7 +26,7 @@ body {
 }
 
 .jumbotron {
-    background-image: url(./daniel-reyes---CLmo9GA60-unsplash.jpg); /*Photo La Parguera, Puerto Rico by Daniel Reyes on Unsplash */
+    background-image: url(./images/daniel-reyes---CLmo9GA60-unsplash.jpg); /*Photo La Parguera, Puerto Rico by Daniel Reyes on Unsplash */
     background-size: cover;
     font-family: 'Zilla Slab', serif;
     color: black;
