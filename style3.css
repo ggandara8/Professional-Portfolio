@@ -1,0 +1,27 @@
+.container-3 {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 50%;
+    border-style: solid;
+    border-color: white;
+    background-image: url(./jose-pagan-r0Q0DWMljOE-unsplash.jpg);
+    background-size: cover;
+}
+
+h1 {
+    padding-top: 20px;
+    font-family: 'Zilla Slab', serif;
+    font-size: 30px;
+    color: white;
+}
+
+.my-4 {
+    border-color: white;
+}
+
+.card-body {
+    background-color: rgba(250, 238, 217,0.5);
+}
+
