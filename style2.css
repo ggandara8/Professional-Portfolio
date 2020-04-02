@@ -1,5 +1,5 @@
 .container-2 {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 300px;
     margin-right: 300px;
     margin-bottom: 30px;
@@ -32,3 +32,29 @@ a {
     font-family: 'Zilla Slab', serif;
     font-size: 12px; 
 }
+
+@media screen and (max-width: 768px) {
+    .container-2 {
+        margin-left: 170px;
+        margin-right: 170px;
+    };
+}
+
+@media screen and (max-width: 640px) {
+    .container-2 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    form {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    form {
+        width: 270px;
+    }
+
+}
+

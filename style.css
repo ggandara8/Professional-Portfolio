@@ -26,21 +26,29 @@ body {
 }
 
 .jumbotron {
-    background-image: url(./images/daniel-reyes---CLmo9GA60-unsplash.jpg); /*Photo La Parguera, Puerto Rico by Daniel Reyes on Unsplash */
+    /* background-image:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(./images/daniel-reyes---CLmo9GA60-unsplash.jpg); */
     background-size: cover;
+    background-image: url(./images/wenhao-ryan-8ZRBpgC2Ayc-unsplash.jpg); /*Photo Culebra, Puerto Rico by Wenhao Ryan on Unsplash*/
     font-family: 'Zilla Slab', serif;
-    color: black;
+    color: #FAEED9;
     border-style: solid;
-    border-color: white;
+    border-color: #FAEED9;
+    margin-top: 20px;
 }
 
 .my-4 {
-    border-color: black;
+    border-color: #FAEED9;
 }
 
-p {
+.container p {
     font-family: 'Zilla Slab', serif;
     font-size: 20px;
+    background-color: seashell;
+    color: black; 
+    display: inline;
+    padding: 0.5rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
 }
 
 .card p {
@@ -60,3 +68,16 @@ a {
     background-color: #FAEED9;
 }
 
+.wrapper .card {
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+@media screen and (max-width: 768px) {
+    .container .col-sm-6 {
+        margin-top: 40px;
+    }
+
+ 
+}
