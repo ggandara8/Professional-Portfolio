@@ -26,6 +26,10 @@ h1 {
     background-color: rgba(250, 238, 217,0.5);
 }
 
-
+@media screen and (max-width: 768px) {
+    .container-3 {
+        width: 80%;
+    }
+}
 
 

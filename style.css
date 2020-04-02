@@ -78,5 +78,14 @@ a {
         margin-top: 40px;
     }
  
+    .col-sm-4 {
+        padding-right: 600px; /*Moved text under picture*/
+    }
 }
 
+@media screen and (max-width: 320px){
+    .col-sm-4 img { /*Image is now in container*/
+        width: 250px; 
+        height: 250px;
+    }
+}

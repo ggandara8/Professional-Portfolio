@@ -33,6 +33,17 @@ a {
     font-size: 12px; 
 }
 
+@media screen and (max-width: 768px) {
+    .container-2 {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    form {
+        width: 300px;
+    }
+}
+
 @media screen and (max-width: 640px) {
     .container-2 {
         margin-left: 10px;
@@ -44,7 +55,7 @@ a {
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 400px) {
     form {
         width: 270px;
     }
