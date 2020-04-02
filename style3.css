@@ -1,8 +1,8 @@
 .container-3 {
     padding-left: 20px;
     padding-right: 20px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 20px;
     width: 50%;
     border-style: solid;
@@ -24,6 +24,24 @@ h1 {
 
 .card-body {
     background-color: rgba(250, 238, 217,0.5);
+}
+
+@media screen and (max-width: 640px) {
+    .container-3 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    form {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    form {
+        width: 270px;
+    }
+
 }
 
 

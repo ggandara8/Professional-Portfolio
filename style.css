@@ -74,10 +74,11 @@ a {
     margin-right: -10px;
 }
 
+
 @media screen and (max-width: 768px) {
     .container .col-sm-6 {
         margin-top: 40px;
     }
-
  
 }
+
