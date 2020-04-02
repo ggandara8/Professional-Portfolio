@@ -26,22 +26,6 @@ h1 {
     background-color: rgba(250, 238, 217,0.5);
 }
 
-@media screen and (max-width: 640px) {
-    .container-3 {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
 
-    form {
-        width: 320px;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    form {
-        width: 270px;
-    }
-
-}
 
 
