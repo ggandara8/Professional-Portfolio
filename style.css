@@ -3,7 +3,7 @@ body {
 }
 
 .navbar {
-    background-color: rgba(250, 238, 217,0.5);
+    background-color: rgba(250, 238, 217,0.8);
     font-family: 'Zilla Slab', serif;
 }
 
@@ -26,13 +26,13 @@ body {
 }
 
 .jumbotron {
-    /* background-image:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(./images/daniel-reyes---CLmo9GA60-unsplash.jpg); */
     background-size: cover;
     background-image: url(./images/wenhao-ryan-8ZRBpgC2Ayc-unsplash.jpg); /*Photo Culebra, Puerto Rico by Wenhao Ryan on Unsplash*/
     font-family: 'Zilla Slab', serif;
     color: #FAEED9;
     border-style: solid;
     border-color: #FAEED9;
+    border-radius: 20px;
     margin-top: 20px;
 }
 
@@ -46,46 +46,23 @@ body {
     background-color: seashell;
     color: black; 
     display: inline;
-    padding: 0.5rem;
+    padding: 0.2rem;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
 }
 
-.card p {
-    font-size: 12px;
-}
-
-a {
+.content {
+    text-align: center;
     font-size: 12px;
     font-family: 'Zilla Slab', serif;
+    background-color:rgba(250, 238, 217,0.8);
+    padding: 30px;
+    
 }
 
-.card .card-header {
-    background-color: #FAEED9;
-}
-
-.card .card-footer {
-    background-color: #FAEED9;
-}
-
-.wrapper .card {
-    margin-bottom: -10px;
-}
-
-
-@media screen and (max-width: 768px) {
-    .container .col-sm-6 {
-        margin-top: 40px;
-    }
- 
-    .col-sm-4 {
-        padding-right: 600px; /*Moved text under picture*/
-    }
-}
-
-@media screen and (max-width: 320px){
-    .col-sm-4 img { /*Image is now in container*/
-        width: 250px; 
-        height: 250px;
+@media screen and (max-width: 1200px) {
+    .col-sm-8 {
+        margin-left: 10px;
+        margin-top: 20px;
     }
 }
