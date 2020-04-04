@@ -2,6 +2,11 @@ body {
     background-color: seashell;
 }
 
+img {
+    height: 300px;
+    width: 300px;
+}
+
 .navbar {
     background-color: rgba(250, 238, 217,0.8);
     font-family: 'Zilla Slab', serif;
