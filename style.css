@@ -1,5 +1,8 @@
 body {
     background-color: seashell;
+    min-height:100%; 
+    position:relative; 
+    padding-bottom:[footer-height];
 }
 
 img {
@@ -56,13 +59,27 @@ img {
     box-decoration-break: clone;
 }
 
-.content {
+/* .content {
     text-align: center;
     font-size: 12px;
     font-family: 'Zilla Slab', serif;
     background-color:rgba(250, 238, 217,0.8);
     padding: 30px;
     
+} */
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgba(250, 238, 217,0.8);
+    text-align: center;
+    padding-top: 10px;
+    height:[footer-height];
+    font-size: 12px;
+    font-family: 'Zilla Slab', serif;
+    padding: 30px;
 }
 
 @media screen and (max-width: 1200px) {

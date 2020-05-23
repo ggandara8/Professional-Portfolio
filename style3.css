@@ -5,22 +5,17 @@
     margin-right: auto;
     margin-top: 20px;
     width: 50%;
-    border-style: solid;
-    border-color: #FAEED9;
-    border-radius: 20px;
-    background-image: url(./images/jose-pagan-r0Q0DWMljOE-unsplash.jpg); /*Photo Fajardo, Puerto Rico by Jose Pagan on Unsplash*/
-    background-size: cover;
 }
 
 h1 {
     padding-top: 20px;
     font-family: 'Zilla Slab', serif;
     font-size: 30px;
-    color: white;
+    color: black;
 }
 
 .my-4 {
-    border-color: white;
+    border-color: black;
 }
 
 .card-body {
