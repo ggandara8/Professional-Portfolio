@@ -1,84 +1,138 @@
 body {
-    background-color: seashell;
     min-height:100%; 
     position:relative; 
     padding-bottom:[footer-height];
+    font-family: 'Yellowtail', cursive;
+    color: #def2f1;
+    background: linear-gradient(#3aafa9, #feffff);
+}
+
+#portfolio {
+    color: #def2f1;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.modal-content {
+    background-color:#17252a ;
+}
+
+.close {
+    color: #def2f1;
+}
+
+i {
+    font-size: 60px;
+    color: #17252a;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.repo {
+    font-size: 20px;
+}
+
+.repo:hover {
+    color: #494d4c;
+}
+.card {
+    margin: 10px;
+    padding-left: 10px;
+    background-color: transparent !important;
+    border: none;
+}
+
+.card a {
+    text-decoration: none !important;
+    color: #17252a;
+}
+
+.fa-copyright {
+    font-size: 10px;
+}
+
+h5 {
+   color: #17252a; 
+}
+
+.jumbotron .nav-link {
+    color:#def2f1;
+}
+
+.jumbotron .nav-link:hover{
+    color: black;
+}
+
+.navbar-toggler {
+    color: #17252a;
+}
+
+.display-4:hover {
+    color: #17252a;
+    font-size: 60px;
 }
 
 img {
     height: 300px;
     width: 300px;
-}
-
-.navbar {
-    background-color: rgba(250, 238, 217,0.8);
-    font-family: 'Zilla Slab', serif;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .navbar-nav .nav-item a {
     font-size: 20px;
+    color: #def2f1;
 }
 
 .navbar .navbar-brand {
-    color: black;
-    font-size: 30px;
+    font-size: 40px;
+    color: #def2f1;
 }
 
 .navbar-nav {
     font-size: 20px;
 }
 
-.navbar-nav .nav-item a:hover {
-    background-color: transparent !important;
-    font-size: 25px;
+.navbar {
+    color: #def2f1;
+}
+
+.navbar-brand:hover {
+    color: #17252a;
 }
 
 .jumbotron {
-    background-size: cover;
-    background-image: url(./images/wenhao-ryan-8ZRBpgC2Ayc-unsplash.jpg); /*Photo Culebra, Puerto Rico by Wenhao Ryan on Unsplash*/
-    font-family: 'Zilla Slab', serif;
-    color: #FAEED9;
-    border-style: solid;
-    border-color: #FAEED9;
-    border-radius: 20px;
+    text-align: center;
     margin-top: 20px;
+    color: #def2f1;
+    background-color: transparent !important;
+    font-size: 60px;
 }
 
 .my-4 {
-    border-color: #FAEED9;
+    border-color: #2b7a78;
 }
 
 .container p {
-    font-family: 'Zilla Slab', serif;
+    font-family: 'Yellowtail', cursive;
     font-size: 20px;
-    background-color: seashell;
-    color: black; 
-    display: inline;
+    color: #17252a;
     padding: 0.2rem;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
 }
-
-/* .content {
-    text-align: center;
-    font-size: 12px;
-    font-family: 'Zilla Slab', serif;
-    background-color:rgba(250, 238, 217,0.8);
-    padding: 30px;
-    
-} */
 
 .footer {
     position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color:rgba(250, 238, 217,0.8);
+    color: #17252a;
     text-align: center;
     padding-top: 10px;
     height:[footer-height];
     font-size: 12px;
-    font-family: 'Zilla Slab', serif;
     padding: 30px;
 }
 

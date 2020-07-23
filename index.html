@@ -6,33 +6,17 @@
     <title>Gerardo Gándara</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/63242206f4.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <!-- Section header navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html"><strong>Gerardo Gándara</strong></a>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">Gerardo Gándara</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        
-        <section class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                  Contact <span class="sr-only">(current)</span></a>
-            </li>
-          </ul>
-        </section>
-
     </nav>
 
     <!-- Modal -->
@@ -62,7 +46,7 @@
       </form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Submit</button>
+        <a type="button" href="mailto:ggandara8@gmail.com" class="btn btn-primary">Submit</a>
       </div>
     </div>
   </div>
@@ -71,20 +55,28 @@
     <main class="container">
         
         <section class="jumbotron">
-            <h1 class="display-4">About Me</h1>
+            <a class="nav-link" href="#summary">About Me<span class="sr-only">(current)</span></a>
             <hr class="my-4">
+            <a class="nav-link" href="#portfolio">Portfolio<span class="sr-only">(current)</span></a>
+            <hr class="my-4">
+            <a class="nav-link" type="button" data-toggle="modal" data-target="#exampleModal">
+            Contact<span class="sr-only">(current)</span></a>
+            <hr class="my-4">
+          <br>
         <section class="row">
             
             <article class="col-sm-4">
                 <img src="./images/IMG_20190705_103624_112.jpg" alt="Gerardo Gándara">
             </article>
             
-            <article class="col-sm-8">
-                <p>My name is Gerardo Gándara and I'm a 29 years old Web Development student originally from Carolina, Puerto Rico currently residing 
-                  in Fort Worth, Texas. I'm in the process of a career change to Web Development and I'm enjoying it to the fullest. On the next pages
-                  you will find my Portfolio that will in constant update with future work in do in the field but currently it has my social media links
-                  so, feel free to follow me. In the Contact page you can contact me with any inquiries or questions or just to say hi. I really hope you enjoy
-                  my first official page as this is my introduction to the world of Web Development.  
+            <article class="col-sm-8" id="summary">
+              <h1>About Me</h1>
+                <p>My name is Gerardo Gándara and I’m a Full Stack Developer. I create web pages and hopefully soon apps. 
+                  I call home Fort Worth, Texas but I’m originally from Carolina, Puerto Rico. 
+                  I’m a hard worker and creative Developer and 
+                  I enjoy creating and the problem solving aspect of being a developer. 
+                  I come from a Sports Management and Customer Service background. Sports, competition and working out are my favorite things to do and 
+                  Web Developments has become part of my favorite things to do, below you will find some of my work, hope you enjoy it.  
                 </p>
             </article>
         
@@ -93,6 +85,79 @@
         </section>
 
     </main>
+
+    <main class="container">
+      <h1 id="portfolio">Portfolio</h1>
+      <hr class="my-2">
+    <section class="row row-cols-1 row-cols-md-2">
+          <article class="col mb-4">
+            <section class="card">
+              <a href="https://www.linkedin.com/in/ggandara8/" target="_blank">
+                <h2 class="nav-link">Linkedin<i class="fab fa-linkedin"></i></h2>
+              </a>
+            </section>
+          </article>
+          <article class="col mb-4">
+              <section class="card">
+                <a href="https://github.com/ggandara8" target="_blank">
+                  <h2 class="nav-link">GitHub<i class="fab fa-github"></i></h2>
+                </a>
+              </section>
+          </article>
+          <article class="col mb-4">
+              <section class="card">
+                <a href="./images/Gerardo Gandara Resume.pdf" target="_blank">
+                  <h2 class="nav-link">Resume<i class="fas fa-file-pdf"></i></h2>
+                </a>
+              </section>
+          </article>
+          <article class="col mb-4">
+              <section class="card">
+                <a href="https://ggandara8.github.io/Project-1/" target="_blank">
+                  <h2 class="nav-link">The Happy Place<i class="far fa-smile-beam"></i></h2>
+                  <a href="https://github.com/ggandara8/Project-1" class="nav-link repo">Repository link</a>
+                </a>
+              </section>
+          </article>
+
+          <article class="col mb-4">
+            <section class="card">
+              <a href="https://ggandara8.github.io/Work-Day-Scheduler/" target="_blank">
+                <h2 class="nav-link">Work Day Scheduler<i class="far fa-calendar-alt"></i></h2>
+                <a href="https://github.com/ggandara8/Work-Day-Scheduler" class="nav-link repo">Repository link</a>
+              </a>
+            </section>
+          </article>
+
+          <article class="col mb-4">
+           <section class="card">
+             <a href="https://morning-reaches-31184.herokuapp.com/" target="_blank">
+               <h2 class="nav-link">Guess The Quote<i class="fas fa-gamepad"></i></h2>
+               <a href="https://github.com/ggandara8/project2" class="nav-link repo">Repository link</a>
+             </a>
+           </section>
+          </article>
+
+         <article class="col mb-4">
+           <section class="card">
+             <a href="https://afternoon-beach-95475.herokuapp.com/" target="_blank">
+               <h2 class="nav-link">Eat Da Burger<i class="fas fa-hamburger"></i></h2>
+               <a href="https://github.com/ggandara8/Eat-Da-Burger-App" class="nav-link repo">Repository link</a>
+             </a>
+           </section>
+          </article>
+
+          <article class="col mb-4">
+            <section class="card">
+              <a href="https://young-wildwood-91998.herokuapp.com/" target="_blank">
+                <h2 class="nav-link">Note Taker<i class="fas fa-clipboard"></i></h2>
+                <a href="https://github.com/ggandara8/Note-Taker" class="nav-link repo">Repository link</a>
+              </a>
+            </section>
+           </article>
+      </section>
+      
+  </main>
     <br>
     <br>
     <br>
@@ -100,8 +165,7 @@
     <br>
     <!-- Footer -->
     <div class="footer">
-      <p class="text-muted"><i class="far fa-copyright"></i>Copyright</p>
-      <a class="text-muted" href="https://unsplash.com/@wenhao_ryan" target="_blank" >Photo Culebra, Puerto Rico by Wenhao Ryan on Unsplash
+      <p><i class="far fa-copyright"></i>Copyright</p>
       </a>
     </div>
 
